@@ -20,8 +20,11 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 ## Steps to run the project
 
 mkdir temp
+
 cd temp
+
 git clone https://github.com/palakjadav/Basket
+
 npm install
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
