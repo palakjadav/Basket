@@ -13,7 +13,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://i.imgur.com/Z4mbWJa.gifv' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<a href="https://imgur.com/Z4mbWJa"><img src="https://i.imgur.com/Z4mbWJa.gif" title="source: imgur.com" alt='Video Walkthrough' /></a>
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
