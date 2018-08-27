@@ -1,8 +1,28 @@
-# Basket
+# Basket - The Grocery List App
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.5.
 
-## Development server
+## User Stories
+
+- Add items (i.e. _Strawberries_) and associated quantities (i.e. _3_) to a shopping list
+- Mark items as 'in the basket'
+- Clear 'in the basket' items from the list
+- Strikethrough the items bought
+
+## Video Walkthrough
+
+Here's a walkthrough of implemented user stories:
+
+<img src='https://imgur.com/a/p3HQref' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+GIF created with [LiceCap](http://www.cockos.com/licecap/).
+
+## Steps to run the project
+
+mkdir temp
+cd temp
+git clone https://github.com/palakjadav/Basket
+npm install
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
