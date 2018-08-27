@@ -13,7 +13,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://imgur.com/a/p3HQref' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://i.imgur.com/Z4mbWJa.gifv' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
@@ -24,6 +24,8 @@ mkdir temp
 cd temp
 
 git clone https://github.com/palakjadav/Basket
+
+cd Basket
 
 npm install
 
