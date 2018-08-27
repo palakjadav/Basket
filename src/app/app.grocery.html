@@ -1,0 +1,35 @@
+<div>
+    <h2> My Basket </h2>
+
+    <form>
+        <div class="row">
+            <div class="form-group col-xs-2">
+                <label for="item">Item</label>
+                <input type="text" class="form-control" placeholder="items" name="items" [(ngModel)]="task.name" />
+            </div>
+            <div class="form-group col-xs-1">
+                <label for="quantity">Quantity</label>
+                <input type="text" class="form-control" placeholder="quantity" name="quantity" [(ngModel)]="task.quantity" />
+            </div>
+        </div>
+        <div class="form-group">
+            <button class="btn btn-primary" type="submit" (click)="onClick()">
+                Add
+            </button>
+        </div>
+        <div>
+            <ul class="list-group col-xs-3">
+                <li *ngFor="let task of tasks" class="list-group-item">
+                    <span (click)="onStrike(task)" [ngClass]="{'strike': task.strike}">{{task.quantity}} {{ task.name }}
+
+                    </span>
+
+                    <span (click)="onDelete(task) " class="glyphicon glyphicon-remove pull-right  "></span>
+                    <span class="pull-right">&nbsp;</span>
+                    <span (click)=" onEdit(task) " class="glyphicon glyphicon-edit pull-right "></span>
+
+                </li>
+            </ul>
+        </div>
+    </form>
+</div>
